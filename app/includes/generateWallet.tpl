@@ -67,25 +67,6 @@
         <li>
           <p>
             <strong>
-              Ledger / TREZOR / Digital Bitbox
-            </strong>:
-            <span translate="GEN_Help_1">
-              Use your
-            </span>
-            <a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">
-              hardware wallet
-            </a>.
-            <span translate="GEN_Help_3">
-              Your device * is * your wallet.
-            </span>
-          </p>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <p>
-            <strong>
               MetaMask
             </strong>
             <span>

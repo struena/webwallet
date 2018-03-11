@@ -19,8 +19,8 @@ var footerCtrl = function($scope, globalService) {
     }
     var setGasValues = function() {
         $scope.gas = {
-            curVal: 41,
-            value: globalFuncs.localStorage.getItem(gasPriceKey, null) ? parseInt(globalFuncs.localStorage.getItem(gasPriceKey)) : 41,
+            curVal: 21,
+            value: globalFuncs.localStorage.getItem(gasPriceKey, null) ? parseInt(globalFuncs.localStorage.getItem(gasPriceKey)) : 21,
             max: 99,
             min: 1,
             step: 1
