@@ -4,7 +4,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    STR: "STRUENA",
+    STR: "STR",
     Custom: "CUSTOM ETH"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -26,7 +26,7 @@ nodes.nodeList = {
         'name': 'STR',
         'blockExplorerTX': 'https://explorer.struena.org/#/transaction/[[txHash]]',
         'blockExplorerAddr': 'https://explorer.struena.org/#/address/[[address]]',
-        'type': nodes.nodeTypes.STRUENA,
+        'type': nodes.nodeTypes.STR,
         'eip155': true,
         'chainId': 107,
         'tokenList': require('./tokens/strTokens.json'),
